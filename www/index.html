@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+	<div data-role="page" id="pageone">
+		<div data-role="header" data-theme="b">
+			<h1>Countries</h1>
+		</div>
+
+		<ul data-inset="true" data-filter-placeholder="Search ticker or firm name..." data-filter="true" data-role="listview" class="ui-listview ui-listview-inset ui-corner-all ui-shadow" id="countries_list">
+		</ul>
+	</div>
+
+	<script type="text/javascript" src="phonegap.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.2.min.js"></script>
+	<script src="js/index.js"></script>
+	<script type="text/javascript">
+	app.initialize();
+	</script>
+</body>
+</html>
