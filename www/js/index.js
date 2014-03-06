@@ -1,6 +1,7 @@
-document.addEventListener("deviceReady", deviceReady, false);
+//document.addEventListener("deviceReady", deviceReady, false);
 
-function deviceReady() {
+//function deviceReady() {
+$(document).ready(function() {
 	$.ajax({
 		url: "countries.json",
 		success: function(data) {
@@ -10,4 +11,5 @@ function deviceReady() {
 			}
 		}
 	});
-}
+});
+//}
