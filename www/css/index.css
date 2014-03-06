@@ -3,3 +3,7 @@
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 }
+
+.content {
+	padding:4px;
+}
