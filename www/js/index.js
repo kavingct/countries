@@ -4,6 +4,7 @@
 $(document).ready(function() {
 	$.ajax({
 		url: "countries.json",
+		dataType: 'json',
 		success: function(data) {
 			var countries = data.countries;
 			for(var i in countries) {
